@@ -495,7 +495,7 @@ const file_proto_user_proto_rawDesc = "" +
 	"UpdateUser\x12\x17.user.UpdateUserRequest\x1a\x18.user.UpdateUserResponse\x12?\n" +
 	"\n" +
 	"DeleteUser\x12\x17.user.DeleteUserRequest\x1a\x18.user.UpdateUserResponse\x12<\n" +
-	"\tListUsers\x12\x16.user.ListUsersRequest\x1a\x17.user.ListUsersResponseB/Z-github.com/your-org/project-protos/proto/userb\x06proto3"
+	"\tListUsers\x12\x16.user.ListUsersRequest\x1a\x17.user.ListUsersResponseB%Z#github.com/arkad0912/3.1/proto/userb\x06proto3"
 
 var (
 	file_proto_user_proto_rawDescOnce sync.Once

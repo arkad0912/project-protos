@@ -1,6 +1,6 @@
 syntax = "proto3";
 package task;
-option go_package = "github.com/your-org/project-protos/proto/task";
+option go_package = "github.com/arkad0912/3.1/proto/task";
 
 // Сущность задача
 message Task {

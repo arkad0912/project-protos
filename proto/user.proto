@@ -1,6 +1,6 @@
 syntax = "proto3";
 package user;
-option go_package = "github.com/your-org/project-protos/proto/user";
+option go_package = "github.com/arkad0912/3.1/proto/user";
 
 // Сущность пользователь (минимум полей)
 message User {
