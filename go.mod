@@ -1,4 +1,4 @@
-module github.com/arkad0912/project-prot
+module github.com/arkad0912/project-protos
 
 go 1.23.5
 
