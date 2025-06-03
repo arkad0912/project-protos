@@ -748,7 +748,7 @@ const file_proto_task_task_proto_rawDesc = "" +
 	"\n" +
 	"DeleteTask\x12\x17.task.DeleteTaskRequest\x1a\x18.task.DeleteTaskResponse\x12<\n" +
 	"\tListTasks\x12\x16.task.ListTasksRequest\x1a\x17.task.ListTasksResponse\x12N\n" +
-	"\x0fListTasksByUser\x12\x1c.task.ListTasksByUserRequest\x1a\x1d.task.ListTasksByUserResponseB3Z1github.com/arkad0912/project-prot/proto/task;taskb\x06proto3"
+	"\x0fListTasksByUser\x12\x1c.task.ListTasksByUserRequest\x1a\x1d.task.ListTasksByUserResponseB5Z3github.com/arkad0912/project-protos/proto/task;taskb\x06proto3"
 
 var (
 	file_proto_task_task_proto_rawDescOnce sync.Once
