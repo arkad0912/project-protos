@@ -47,10 +47,17 @@ message ListUsersResponse {
   repeated User users = 1;
   uint32 total_count = 2;
 }
+message GetUserRequest {
+  uint32 id = 1;
+}
+
+message GetUserResponse {
+  User user = 1;
+}
 
 service UserService {
-  rpc CreateUser (CreateUserRequest) returns (CreateUserResponse);
-  rpc GetUser    (User)              returns (User);
+  rpc GetUser (GetUserRequest) returns (GetUserResponse);
+  rpc CreateUser (CreateUserRequest) returns (CreateUserResponse); 
   rpc UpdateUser (UpdateUserRequest) returns (UpdateUserResponse);
   rpc DeleteUser (DeleteUserRequest) returns (UpdateUserResponse);
   rpc ListUsers  (ListUsersRequest)  returns (ListUsersResponse);
